@@ -1,0 +1,27 @@
+{
+  "name": "assist-upload-client",
+  "version": "1.0.0",
+  "description": "Shared blob uploader for AssistOS agents (browser-friendly ESM).",
+  "type": "module",
+  "keywords": [
+    "assistOS",
+    "blob",
+    "upload",
+    "agents"
+  ],
+  "author": "",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node ./tests/run.js"
+  },
+  "devDependencies": {
+    "uvu": "^0.5.6"
+  }
+}
